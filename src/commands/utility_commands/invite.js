@@ -191,7 +191,7 @@ module.exports = function run (data)
       data.text = `Invite ${data.message.client.user} `;
       data.text += `\`v${data.config.version}\` to your server\n\n`;
       data.text += `No Fuss simple quick invite:\n`;
-      data.text += `[Click Here]<"https://discordapp.com/oauth2/authorize?client_id=833983702886252555&scope=bot&permissions=70601801">\n\n`;
+      data.text += `Message @Arrow#0229\n\n`;
 
       // -------------
       // Send message
