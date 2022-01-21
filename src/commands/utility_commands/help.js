@@ -133,13 +133,9 @@ function helpMessage (config, param)
    `* ${cmd} help dev\n` +
    `* ${cmd} help prefix\n` +
    "```\n";
-
    // -----------------
    // ReadMe + Discord
    // -----------------
-
-
-
    // --------------
    // Commands List
    // --------------
