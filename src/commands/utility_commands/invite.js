@@ -39,7 +39,7 @@ function remoteInvite (data)
             `__**Invite - Target Server Invite**__\n\n` +
             `Targeted server: \`Unknown\`\n` +
             `Targeted ID: \`${data.cmd.num}\`\n\n` +
-            `Invalid Server ID or RITA is no longer in this server.\n\n`;
+            `Invalid Server ID or BOW is no longer in this server.\n\n`;
             data.color = "warn";
             return sendMessage(data);
 
@@ -191,11 +191,7 @@ module.exports = function run (data)
       data.text = `Invite ${data.message.client.user} `;
       data.text += `\`v${data.config.version}\` to your server\n\n`;
       data.text += `No Fuss simple quick invite:\n`;
-      data.text += `${auth.invite}\n\n`;
-      data.text += `Use the following for the most basic permissions she needs to function.\n`;
-      data.text += `https://ritabot.gg/invite-min\n\n`;
-      data.text += `Use the following for all the permissions she needs to function 100%\n`;
-      data.text += `https://ritabot.gg/invite-max\n\n`;
+      data.text += `[Click Here]<"https://discordapp.com/oauth2/authorize?client_id=833983702886252555&scope=bot&permissions=70601801">\n\n`;
 
       // -------------
       // Send message
