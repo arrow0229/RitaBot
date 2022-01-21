@@ -13,7 +13,7 @@ const db = require("./core/db");
 // Const setStatus = require("./core/status");
 const react = require("./commands/translation_commands/translate.react");
 const botVersion = require("../package.json").version;
-const botCreator = "Rita Bot Project";
+const botCreator = "Arrow";
 const joinMessage = require("./commands/info_commands/join");
 
 // ----------
@@ -41,7 +41,7 @@ exports.listen = function listen (client)
          // -----------------
 
          config = {
-            "botServer": "https://discord.gg/mgNR64R",
+            "botServer": "https://discord.gg/SAbtGN9dFb",
             "defaultLanguage": "en",
             "inviteURL": auth.invite || "Set this in your .env file / config variables in Heroku",
             "maxChainLen": 5,
@@ -50,7 +50,7 @@ exports.listen = function listen (client)
             "maxMulti": 6,
             "maxTasksPerChannel": 15,
             "translateCmd": "!translate",
-            "translateCmdShort": "!tr",
+            "translateCmdShort": "!t",
             "version": botVersion
          };
 
@@ -76,7 +76,7 @@ exports.listen = function listen (client)
 
          client.user.setPresence({
             "activity": {
-               "name": "ritabot.gg | !tr help",
+               "name": "New Features | !t help",
                "type": "PLAYING"
             },
             "status": "online"
