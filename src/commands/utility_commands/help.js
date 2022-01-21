@@ -128,7 +128,6 @@ function helpMessage (config, param)
    `# Other Modules\n` +
    `* ${cmd} help misc\n` +
    `* ${cmd} help report\n` +
-   `* ${cmd} help readme\n` +
    `* ${cmd} help donate\n` +
    `* ${cmd} help debug\n` +
    `* ${cmd} help dev\n` +
@@ -737,7 +736,6 @@ function helpMessage (config, param)
       prefix,
       react,
       readme,
-      report,
       settings,
       stats,
       stop,
