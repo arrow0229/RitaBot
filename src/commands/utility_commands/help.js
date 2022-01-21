@@ -735,7 +735,6 @@ function helpMessage (config, param)
       modules,
       prefix,
       react,
-      readme,
       settings,
       stats,
       stop,
