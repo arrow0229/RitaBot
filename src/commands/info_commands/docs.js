@@ -16,8 +16,8 @@ module.exports = function docs (data)
    {
 
       data.color = "info";
-      data.text = `**Thank you for choosing RITA!! For a full list of commands and usage examples,**\n\n` +
-                  `**please review our [documentation](<https://docs.ritabot.gg/rita-docs>)!!**\n\n`;
+      data.text = `**Thank you for choosing BOW Translator! For a full list of commands and usage examples,**\n\n` +
+                  `**please review our [documentation (Will work soon)](<>)!!**\n\n`;
 
       // -------------
       // Send message
