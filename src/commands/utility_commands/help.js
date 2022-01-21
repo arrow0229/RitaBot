@@ -40,7 +40,7 @@ function helpMessage (config, param)
 
    const info =
    `**For a full command list and usage examples,**\n` +
-   `**please review our [documentation](<https://docs.ritabot.gg/rita-docs>)**\n\n` +
+   `**please review our [documentation (To Be Added)](<#>)**\n\n` +
 
    "```md\n" +
    `# For a full list of commands, enter the following:\n` +
@@ -56,49 +56,42 @@ function helpMessage (config, param)
    helpSection({
       config,
       "icon": ":flag_white:",
-      "link": `<https://docs.ritabot.gg/rita-docs/usage-commands-and-settings/react>`,
       "title": "Translate by Reacting",
       "value": `${cmd} help react`
    }) +
    helpSection({
       config,
       "icon": ":abc:",
-      "link": `<https://docs.ritabot.gg/rita-docs/usage-commands-and-settings/custom>`,
       "title": "Translate Custom Text",
       "value": `${cmd} help this`
    }) +
    helpSection({
       config,
       "icon": ":arrow_double_up:",
-      "link": `<https://docs.ritabot.gg/rita-docs/usage-commands-and-settings/last>`,
       "title": "Translate Last Message",
       "value": `${cmd} help last`
    }) +
    helpSection({
       config,
       "icon": ":hash:",
-      "link": `<https://docs.ritabot.gg/rita-docs/usage-commands-and-settings/chan>`,
       "title": "Translate Channel (Automatic)",
       "value": `${cmd} help auto`
    }) +
    helpSection({
       config,
       "icon": ":bar_chart:",
-      "link": `<https://docs.ritabot.gg/rita-docs/usage-commands-and-settings/statistics>`,
       "title": "Stats",
       "value": `${cmd} help stats`
    }) +
    helpSection({
       config,
       "icon": ":gear:",
-      "link": `<https://docs.ritabot.gg/rita-docs/usage-commands-and-settings/settings>`,
       "title": "Settings",
       "value": `${cmd} help settings`
    }) +
    helpSection({
       config,
       "icon": ":robot:",
-      "link": `<https://docs.ritabot.gg/rita-docs/usage-commands-and-settings/misc>`,
       "title": "Misc. Settings",
       "value": `${cmd} help misc`
    });
@@ -146,28 +139,7 @@ function helpMessage (config, param)
    // ReadMe + Discord
    // -----------------
 
-   const readme =
 
-   `**Github ReadMe**\n\n` +
-   `To read the GitHub read me go here:\n` +
-   `- https://github.com/RitaBot-Project/RitaBot/blob/master/README.md  \n\n` +
-   `If you need to update your bot's version you can do so here:\n` +
-   `- https://ritabot.gg/update/ \n\n` +
-   `You can join Rita's Discord Support Server here: \n` +
-   `- https://discord.gg/hXaedzCQ8d` +
-   "\n\n";
-
-   // --------------------------------
-   // Report Bugs + Report in Discord
-   // --------------------------------
-
-   const report =
-   `**Report Bugs**\n\n` +
-   `You can report issues in Github here:\n` +
-   `- https://github.com/RitaBot-Project/RitaBot/issues\n\n` +
-   `Rita also has a support server with it's developers and contributors: \n` +
-   `- [Offical Support Server](https://discord.gg/mgNR64R) \n` +
-   "\n\n";
 
    // --------------
    // Commands List
@@ -221,7 +193,7 @@ function helpMessage (config, param)
    "```" +
 
    "```md\n" +
-   `# Want to Support RITA\n` +
+   `# Want to Support BOW\n` +
    `* ${cmd} donate [oc/github]\n\n` +
    "```\n";
 
@@ -501,9 +473,9 @@ function helpMessage (config, param)
    `* ${cmd} settings tags [Parameter]\n\n` +
 
    `# Parameters\n` +
-   `* none - RITA won't ignore any mentions\n` +
-   `* everyone - RITA will ignore everyone and here tags\n` +
-   `* all - RITA will ignore all mentions\n` +
+   `* none - BOW won't ignore any mentions\n` +
+   `* everyone - BOW will ignore everyone and here tags\n` +
+   `* all - BOW will ignore all mentions\n` +
    "```" +
 
    "```md\n" +
@@ -658,20 +630,17 @@ function helpMessage (config, param)
    // ----------
 
    const donate =
-   `__**Want to Donate to RITA's Development **__\n\n` +
+   `__**Want to Donate to BOW's Development **__\n\n` +
 
    "```md\n" +
    `# Donate\n` +
-   `* Becoming a Sponsor, Supporter or Backer of RitaBot will \n` +
+   `* Becoming a Sponsor, Supporter or Backer of BOW will \n` +
    `* allow us to continue development long into the future, \n` +
    `* and constantly strive to add new features and functionality  \n` +
    `* to allow all users to break the language barrier and be  \n` +
    `* heard and understood regardless of the language spoken\n\n` +
-   `* You can Donate at Github Sponsors\n` +
-   `* ${cmd} donate github\n\n` +
-   `* You can Donate at Open Collective\n` +
-   `* ${cmd} donate oc\n\n` +
-   `* Thank you for your continued support - RITA Dev Team` +
+   `* You can Donate by messaging @ARROW#0229\n` +
+   `* Thank you for your continued support - ARROW` +
    "```\n";
 
    // ---------------
@@ -725,7 +694,7 @@ function helpMessage (config, param)
 
    "```md\n" +
    `# Examples\n` +
-   `* ${cmd} eject [ServerID] - Eject Rita from [ServerID]\n` +
+   `* ${cmd} eject [ServerID] - Eject BOW from [ServerID]\n` +
    `* ${cmd} blacklist [ServerID] - [ServerID] Will be blacklisted\n\n` +
    "```\n";
 
